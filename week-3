@@ -1,0 +1,31 @@
+Task-3
+Paging & Sorting in Spring Boot (Pageable & Sort) - My Week 3 of Learning Spring Boot
+
+I recently completed a practice task focused on Paging & Sorting in Spring Boot using Pageable and Sort. The task involved implementing efficient data retrieval methods to handle large datasets in a Spring Boot application.
+
+Key Takeaways
+Understanding Paging & Sorting
+Spring Boot provides built-in support for pagination and sorting using the Pageable and Sort interfaces in Spring Data JPA. This helps optimize database queries and improve application performance.
+
+Using Pageable for Pagination
+By implementing the Pageable interface, I was able to fetch a subset of data, reducing the load on the database. The PageRequest.of(page, size) method allows fetching data page by page, improving efficiency in large applications.
+
+Sorting Data with Sort
+The Sort class in Spring Boot enables dynamic sorting of records based on different fields. Using Sort.by("fieldName").ascending() and Sort.by("fieldName").descending(), I implemented flexible sorting mechanisms.
+
+Challenges and Solutions
+Handling Large Datasets Efficiently
+Initially faced performance issues when retrieving all records at once. Implementing pagination with Pageable helped optimize database queries and improve response times.
+
+Combining Pagination and Sorting
+Learned how to apply both pagination and sorting together using Pageable pageable = PageRequest.of(page, size, Sort.by("field").descending()), allowing users to retrieve data in a structured manner.
+
+Practical Application
+Paging and sorting are essential for building scalable and responsive applications. By limiting and ordering data efficiently, I was able to enhance the user experience and database performance in my Spring Boot project.
+
+What’s Next
+Looking forward to exploring Spring Boot REST APIs with Pagination & Sorting and integrating it into a real-world application.
+
+GitHub Repository: [https://github.com/shubhdhnger/Weekly-Task.git]
+
+#Signimus #Java #SpringBoot #Hibernate #JPA #Pagination #Sorting #BackendDevelopment #Learning #Programming #Development #Coding
