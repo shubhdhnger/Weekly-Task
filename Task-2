@@ -1,0 +1,28 @@
+Tak-2
+Logging & Hibernate in Spring Boot - My Week 2 of Learning Spring Boot
+
+I recently completed a practice task focused on Logging in Spring Boot and JPA with Hibernate. The task involved configuring Spring Boot logging, understanding Hibernate's role in JPA, and implementing efficient data persistence using these technologies.
+
+Key Takeaways
+Understanding Logging in Spring Boot
+Spring Boot uses SLF4J with Logback as the default logging framework. By configuring application.properties or logback.xml, we can control log levels such as DEBUG, INFO, WARN, and ERROR.
+
+JPA & Hibernate in Spring Boot
+Spring Boot integrates JPA (Java Persistence API) with Hibernate to manage relational databases easily. The spring-boot-starter-data-jpa dependency simplifies CRUD operations with minimal configurations.
+
+Challenges and Solutions
+Handling SQL Queries in Logs
+By setting logging.level.org.hibernate.SQL=DEBUG, I was able to track executed queries, which helped optimize database interactions.
+
+Lazy vs. Eager Loading
+Faced performance issues with Eager fetching but optimized queries by switching to Lazy loading and using @Transactional when necessary.
+
+Practical Application
+Efficient logging ensures better debugging, and understanding JPA with Hibernate helps in designing scalable, high-performance database applications.
+
+What’s Next
+Looking forward to exploring Spring Boot REST APIs and diving deeper into advanced Hibernate features like caching and criteria queries.
+
+GitHub Repository: [Your GitHub Link]
+
+#Signimus #Java #SpringBoot #Hibernate #JPA #Logging #BackendDevelopment #Learning #Programming #Development #Coding
