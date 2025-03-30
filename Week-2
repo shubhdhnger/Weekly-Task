@@ -1,4 +1,4 @@
-Tak-2
+Week-2
 Logging & Hibernate in Spring Boot - My Week 2 of Learning Spring Boot
 
 I recently completed a practice task focused on Logging in Spring Boot and JPA with Hibernate. The task involved configuring Spring Boot logging, understanding Hibernate's role in JPA, and implementing efficient data persistence using these technologies.
@@ -23,6 +23,6 @@ Efficient logging ensures better debugging, and understanding JPA with Hibernate
 What’s Next
 Looking forward to exploring Spring Boot REST APIs and diving deeper into advanced Hibernate features like caching and criteria queries.
 
-GitHub Repository: [Your GitHub Link]
+GitHub Repository: [https://github.com/shubhdhnger/Weekly-Task.git]
 
 #Signimus #Java #SpringBoot #Hibernate #JPA #Logging #BackendDevelopment #Learning #Programming #Development #Coding
