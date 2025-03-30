@@ -1,0 +1,58 @@
+Week-4
+One-to-One, One-to-Many, and Many-to-One Mapping in Spring Boot - My Week 4 of Learning Spring Boot
+I recently completed a practice task focused on entity relationships in Spring Boot, specifically One-to-One, One-to-Many, and Many-to-One mappings, along with implementing DTOs (Data Transfer Objects) for efficient data transfer. The task involved setting up entity relationships using Spring Boot, JPA, and Hibernate to better structure data models.
+
+Key Takeaways
+Understanding One-to-One Mapping
+One-to-One mapping is used when one entity is directly related to another. I implemented this using the @OneToOne annotation along with @JoinColumn to define the foreign key relationship.
+
+Understanding One-to-Many and Many-to-One Mapping
+One-to-Many and Many-to-One mappings allow an entity to be related to multiple entities. Using @OneToMany and @ManyToOne annotations, I structured my database to handle parent-child relationships efficiently.
+
+Implementing DTOs (Data Transfer Objects)
+DTOs help in transferring only the required data to the client, improving performance and security. Instead of exposing full entity objects, I used DTOs to format API responses efficiently.
+
+Challenges and Solutions
+Handling Lazy Initialization Issues
+Faced issues when fetching related entities due to lazy loading. Resolved it by using DTOs and writing custom JPQL queries with JOIN FETCH to fetch related data only when needed.
+
+Managing Bidirectional Relationships
+Initially encountered problems with infinite recursion when using bidirectional relationships. Used @JsonIgnore and @JsonManagedReference to break cyclic dependencies in JSON responses.
+
+Practical Application
+Understanding entity relationships and DTOs is essential for designing scalable databases and optimizing API responses. These concepts ensure structured data handling in real-world applications, such as e-commerce platforms and content management systems.
+
+What’s Next
+Looking forward to implementing Many-to-Many relationships and optimizing database queries using criteria queries and caching.
+
+GitHub Repository: [One-to-One, One-to-Many, and Many-to-One Mapping in Spring Boot - My Week 4 of Learning Spring Boot
+I recently completed a practice task focused on entity relationships in Spring Boot, specifically One-to-One, One-to-Many, and Many-to-One mappings, along with implementing DTOs (Data Transfer Objects) for efficient data transfer. The task involved setting up entity relationships using Spring Boot, JPA, and Hibernate to better structure data models.
+
+Key Takeaways
+Understanding One-to-One Mapping
+One-to-One mapping is used when one entity is directly related to another. I implemented this using the @OneToOne annotation along with @JoinColumn to define the foreign key relationship.
+
+Understanding One-to-Many and Many-to-One Mapping
+One-to-Many and Many-to-One mappings allow an entity to be related to multiple entities. Using @OneToMany and @ManyToOne annotations, I structured my database to handle parent-child relationships efficiently.
+
+Implementing DTOs (Data Transfer Objects)
+DTOs help in transferring only the required data to the client, improving performance and security. Instead of exposing full entity objects, I used DTOs to format API responses efficiently.
+
+Challenges and Solutions
+Handling Lazy Initialization Issues
+Faced issues when fetching related entities due to lazy loading. Resolved it by using DTOs and writing custom JPQL queries with JOIN FETCH to fetch related data only when needed.
+
+Managing Bidirectional Relationships
+Initially encountered problems with infinite recursion when using bidirectional relationships. Used @JsonIgnore and @JsonManagedReference to break cyclic dependencies in JSON responses.
+
+Practical Application
+Understanding entity relationships and DTOs is essential for designing scalable databases and optimizing API responses. These concepts ensure structured data handling in real-world applications, such as e-commerce platforms and content management systems.
+
+What’s Next
+Looking forward to implementing Many-to-Many relationships and optimizing database queries using criteria queries and caching.
+
+GitHub Repository: [https://github.com/shubhdhnger/Weekly-Task.git]
+
+#Signimus #Java #SpringBoot #Hibernate #JPA #OneToOne #OneToMany #ManyToOne #DT]
+
+#Signimus #Java #SpringBoot #Hibernate #JPA #OneToOne #OneToMany #ManyToOne #DT
